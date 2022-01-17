@@ -1,6 +1,6 @@
 function turizmus(melyik){
     document.getElementById('turizmusszovegkeret').style.display='none';
-    document.getElementById('turizmuskep').src=melyik+'.jpg';
+    document.getElementById('kepek').src=melyik+'.jpg';
     document.getElementById('turizmuskepkeret').style.display='block';   
 }
 
